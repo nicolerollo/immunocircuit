@@ -205,5 +205,3 @@ IF IL10 HIGH THEN TNF SUPPRESSED -2;
 This project intentionally avoids medical inference. The biological relationships are simplified and synthetic. The goal is to demonstrate software design, parsing, graph modeling, and algorithmic reasoning.
 
 ---
-- Add a Prolog comparison file to contrast declarative logic programming with the Java interpreter.
-- Replace the starter catalog with a reproducible HGNC download pipeline.
