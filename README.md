@@ -32,22 +32,21 @@ The main design question is:
 ```bash
 bash build.sh
 bash run.sh examples/th17_demo.icirc
-chmod +x build.sh run.sh
-./build.sh
+```
+
+### Option B: Make the scripts executable first
+
+```bash
+chmod +x build.sh
+run.sh ./build.sh
 ./run.sh examples/th17_demo.icirc
 ```
 
-### Option B: compile manually
+### Run tests with Maven
 
-```bash
-mkdir -p out
-javac -d out $(find src/main/java -name "*.java")
-java -cp out immunocircuit.Main examples/th17_demo.icirc
-```
+mvn test
 
-### Option C: Maven layout
-
-This repository also includes a `pom.xml` so it can be imported into IntelliJ, Eclipse, or VS Code as a Maven-style Java project.
+The demo script loads the synthetic interleukin catalog, loads the Th17 network, loads ICirc rules, runs the rule cascade, and prints explanations, ranked nodes, feedback loops, and unmodeled catalog genes.
 
 ---
 
