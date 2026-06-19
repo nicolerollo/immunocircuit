@@ -1,6 +1,6 @@
 # ImmunoCircuit
 
-**ImmunoCircuit** is a Java portfolio project that demonstrates object-oriented programming, data structures, algorithm analysis, and programming-language design through a synthetic immune-signaling network.
+**ImmunoCircuit** is a Java-based domain-specific language and interpreter for synthetic cytokine circuit simulation. It demonstrates object-oriented design, graph data structures, algorithm analysis, and programming-language concepts through a computational-biology-inspired toy model.
 
 The project combines:
 
@@ -27,9 +27,11 @@ The main design question is:
 
 ## Quick start
 
-### Option A: compile with the included shell script
+### Option A: Git Bash / macOS / Linux
 
 ```bash
+bash build.sh
+bash run.sh examples/th17_demo.icirc
 chmod +x build.sh run.sh
 ./build.sh
 ./run.sh examples/th17_demo.icirc
