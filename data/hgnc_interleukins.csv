@@ -1,0 +1,44 @@
+symbol,name,type,aliases,modeled
+IL1A,interleukin 1 alpha,CYTOKINE,"IL-1A|IL1F1",false
+IL1B,interleukin 1 beta,CYTOKINE,"IL-1B|IL1F2",false
+IL1RN,interleukin 1 receptor antagonist,CYTOKINE,"IL1RA|IL-1RN",false
+IL2,interleukin 2,CYTOKINE,"IL-2",false
+IL3,interleukin 3,CYTOKINE,"IL-3",false
+IL4,interleukin 4,CYTOKINE,"IL-4",false
+IL5,interleukin 5,CYTOKINE,"IL-5",false
+IL6,interleukin 6,CYTOKINE,"IL-6",true
+IL7,interleukin 7,CYTOKINE,"IL-7",false
+IL9,interleukin 9,CYTOKINE,"IL-9",false
+IL10,interleukin 10,CYTOKINE,"IL-10",true
+IL11,interleukin 11,CYTOKINE,"IL-11",false
+IL12A,interleukin 12A,CYTOKINE,"IL-12A|p35",false
+IL12B,interleukin 12B,CYTOKINE,"IL-12B|p40",false
+IL13,interleukin 13,CYTOKINE,"IL-13",false
+IL15,interleukin 15,CYTOKINE,"IL-15",false
+IL16,interleukin 16,CYTOKINE,"IL-16",false
+IL17A,interleukin 17A,CYTOKINE,"IL-17A",true
+IL17B,interleukin 17B,CYTOKINE,"IL-17B",false
+IL17C,interleukin 17C,CYTOKINE,"IL-17C",false
+IL17D,interleukin 17D,CYTOKINE,"IL-17D",false
+IL17F,interleukin 17F,CYTOKINE,"IL-17F",true
+IL18,interleukin 18,CYTOKINE,"IL-18",false
+IL19,interleukin 19,CYTOKINE,"IL-19",false
+IL20,interleukin 20,CYTOKINE,"IL-20",false
+IL21,interleukin 21,CYTOKINE,"IL-21",true
+IL22,interleukin 22,CYTOKINE,"IL-22",true
+IL23A,interleukin 23A,CYTOKINE,"IL-23A|p19",true
+IL24,interleukin 24,CYTOKINE,"IL-24",false
+IL25,interleukin 25,CYTOKINE,"IL-25|IL17E",false
+IL26,interleukin 26,CYTOKINE,"IL-26",false
+IL27,interleukin 27,CYTOKINE,"IL-27",false
+IL31,interleukin 31,CYTOKINE,"IL-31",false
+IL32,interleukin 32,CYTOKINE,"IL-32",false
+IL33,interleukin 33,CYTOKINE,"IL-33",false
+IL34,interleukin 34,CYTOKINE,"IL-34",false
+IL36A,interleukin 36 alpha,CYTOKINE,"IL-36A|IL1F6",true
+IL36B,interleukin 36 beta,CYTOKINE,"IL-36B|IL1F8",false
+IL36G,interleukin 36 gamma,CYTOKINE,"IL-36G|IL1F9",true
+IL36RN,interleukin 36 receptor antagonist,CYTOKINE,"IL-36RN|IL1F5",false
+IL37,interleukin 37,CYTOKINE,"IL-37|IL1F7",true
+IL38,interleukin 38,CYTOKINE,"IL-38|IL1F10",false
+C17orf99,chromosome 17 open reading frame 99,CYTOKINE,"IL40|IL-40|interleukin 40",false
