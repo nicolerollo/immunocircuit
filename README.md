@@ -109,18 +109,6 @@ Rules blocked:
 ```
 
 Two rules (`th17_stabilization` and `th17_program`) both activate `Th17` and both fire on every one of the 3 steps, which is why the score is 18 (`(3 + 3) * 3`), not 9 — there is no rule-firing dedup or convergence check, by design, so a node can keep accumulating score across steps as long as its condition stays true. `Rules blocked` shows the converse case: `treg_counterbalance` would suppress `Th17`, but its `IF FOXP3 ACTIVE` condition never holds in this scenario, and `EXPLAIN` says exactly why instead of omitting the rule silently. See `docs/demo_output.md` for the full run and `docs/known_tradeoffs.md` for why scores accumulate this way.
-
----
-
-## Course concept mapping
-
-| Course | Concepts demonstrated |
-|---|---|
-| CMSC 115 | Java fundamentals, methods, control flow, input/output, arrays/lists, debugging, decomposition |
-| CMSC 215 | Object-oriented design, encapsulation, interfaces, inheritance-friendly model classes, exceptions, documentation |
-| CMSC 315 | Hash maps, adjacency-list graphs, DFS cycle detection, sorting, score ranking, Big-O analysis |
-| CMSC 330 | Syntax, semantics, lexical analysis, recursive-descent parsing, ASTs, semantic analysis/symbol resolution, interpreter design, imperative vs declarative comparison |
-
 ---
 
 ## Repository layout
