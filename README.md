@@ -37,15 +37,16 @@ bash run.sh examples/th17_demo.icirc
 ### Option B: Make the scripts executable first
 
 ```bash
-chmod +x build.sh
-run.sh ./build.sh
+chmod +x build.sh run.sh
+./build.sh
 ./run.sh examples/th17_demo.icirc
 ```
 
 ### Run tests with Maven
 
+```bash
 mvn test
-
+```
 The demo script loads the synthetic interleukin catalog, loads the Th17 network, loads ICirc rules, runs the rule cascade, and prints explanations, ranked nodes, feedback loops, and unmodeled catalog genes.
 
 ---
