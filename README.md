@@ -1,6 +1,8 @@
 # ImmunoCircuit
 
-**ImmunoCircuit** is a Java-based domain-specific language and interpreter for synthetic cytokine circuit simulation. It demonstrates object-oriented design, graph data structures, algorithm analysis, and programming-language concepts through a computational-biology-inspired toy model.
+[![Java CI](https://github.com/nicolerollo/immunocircuit/actions/workflows/java-ci.yml/badge.svg)](https://github.com/nicolerollo/immunocircuit/actions/workflows/java-ci.yml)
+
+ImmunoCircuit is a Java-based domain-specific language and interpreter for synthetic cytokine circuit simulation. It demonstrates object-oriented design, graph data structures, algorithm analysis, and programming-language concepts through a computational-biology-inspired toy model.
 
 The project combines:
 
